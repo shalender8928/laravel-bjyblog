@@ -16,10 +16,10 @@ class CreateNavsTable extends Migration
     public function up()
     {
         Schema::create('navs', function (Blueprint $table) {
-            $table->increments('id')->comment('菜单主键');
-            $table->tinyInteger('sort')->default(1)->comment('排序');
-            $table->string('name')->default('')->comment('菜单名');
-            $table->string('url')->default('')->comment('链接');
+            $table->increments('id');
+            $table->tinyInteger('sort')->default(1);
+            $table->string('name')->default('');
+            $table->string('url')->default('');
             $table->timestamps();
             $table->softDeletes();
         });

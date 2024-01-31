@@ -16,13 +16,13 @@ class CreateCategoriesTable extends Migration
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->increments('id')->comment('分类主键id');
-            $table->string('name', 15)->default('')->comment('分类名称');
-            $table->string('slug')->default('')->comment('slug');
-            $table->string('keywords')->default('')->comment('关键词');
-            $table->string('description')->default('')->comment('描述');
-            $table->unsignedTinyInteger('sort')->default(0)->comment('排序');
-            $table->unsignedTinyInteger('pid')->default(0)->comment('父级栏目id');
+            $table->increments('id');
+            $table->string('name', 15)->default('');
+            $table->string('slug')->default('');
+            $table->string('keywords')->default('');
+            $table->string('description')->default('');
+            $table->unsignedTinyInteger('sort')->default(0);
+            $table->unsignedTinyInteger('pid')->default(0)->comment('Parent column id');
             $table->timestamps();
             $table->softDeletes();
         });

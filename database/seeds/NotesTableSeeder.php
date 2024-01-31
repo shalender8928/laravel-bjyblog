@@ -25,14 +25,14 @@ class NotesTableSeeder extends Seeder
         DB::table('notes')->insert([
             [
                 'id'         => 1,
-                'content'    => '技术这东西；懂的越多；不懂的就越多；',
+                'content'    => 'Technology is something; the more you understand, the more you don’t understand;',
                 'created_at' => '2017-7-18 07:35:12',
                 'updated_at' => '2016-7-18 07:35:12',
                 'deleted_at' => null,
             ],
             [
                 'id'         => 2,
-                'content'    => '已删除',
+                'content'    => 'deleted',
                 'created_at' => '2019-01-04 16:35:12',
                 'updated_at' => '2019-01-04 16:35:12',
                 'deleted_at' => '2019-01-04 16:35:12',

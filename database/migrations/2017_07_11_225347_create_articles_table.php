@@ -16,17 +16,17 @@ class CreateArticlesTable extends Migration
     public function up()
     {
         Schema::create('articles', function (Blueprint $table) {
-            $table->increments('id')->comment('文章表主键');
-            $table->unsignedTinyInteger('category_id')->default(0)->comment('分类id');
-            $table->string('title')->default('')->comment('标题');
+            $table->increments('id');
+            $table->unsignedTinyInteger('category_id')->default(0);
+            $table->string('title')->default('');
             $table->string('slug')->default('')->comment('slug');
-            $table->string('author')->default('')->comment('作者');
-            $table->mediumText('markdown')->comment('markdown文章内容');
-            $table->mediumText('html')->comment('markdown转的html页面');
-            $table->string('description')->default('')->comment('描述');
-            $table->string('keywords')->default('')->comment('关键词');
-            $table->string('cover')->default('')->comment('封面图');
-            $table->unsignedTinyInteger('is_top')->default(0)->comment('是否置顶 1是 0否');
+            $table->string('author')->default('');
+            $table->mediumText('markdown')->comment('markdown article content');
+            $table->mediumText('html')->comment('HTML page converted from markdown');
+            $table->string('description')->default('')->comment('describe');
+            $table->string('keywords')->default('')->comment('Keywords');
+            $table->string('cover')->default('')->comment('cover picture');
+            $table->unsignedTinyInteger('is_top')->default(0)->comment('1 Yes 0 No');
             $table->integer('views')->unsigned()->default(0);
             $table->timestamps();
             $table->softDeletes();

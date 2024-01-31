@@ -16,8 +16,8 @@ class CreateNotesTable extends Migration
     public function up()
     {
         Schema::create('notes', function (Blueprint $table) {
-            $table->increments('id')->comment('主键id');
-            $table->text('content')->comment('内容');
+            $table->increments('id');
+            $table->text('content');
             $table->timestamps();
             $table->softDeletes();
         });

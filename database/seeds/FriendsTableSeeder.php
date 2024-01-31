@@ -25,7 +25,7 @@ class FriendsTableSeeder extends Seeder
         DB::table('friends')->insert([
             [
                 'id'         => 1,
-                'name'       => '白俊遥博客',
+                'name'       => 'Bai Junyao\'s blog',
                 'url'        => 'https://baijunyao.com',
                 'sort'       => 1,
                 'created_at' => '2017-7-16 07:35:12',
@@ -34,7 +34,7 @@ class FriendsTableSeeder extends Seeder
             ],
             [
                 'id'         => 2,
-                'name'       => '已删除',
+                'name'       => 'deleted',
                 'url'        => 'https://deleted.com',
                 'sort'       => 2,
                 'created_at' => '2019-01-04 16:35:12',

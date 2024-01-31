@@ -26,27 +26,27 @@ class ArticlesTableSeeder extends Seeder
             [
                 'id'          => 1,
                 'category_id' => 1,
-                'title'       => '欢迎使用 laravel-bjyblog',
+                'title'       => 'Welcome to laravel-bjyblog',
                 'slug'        => 'welcome-to-laravel-bjyblog',
-                'author'      => '白俊遥',
-                'markdown'    => '1. [切换语言](https://baijunyao.com/docs/laravel-bjyblog/其他配置.html)
+                'author'      => 'Bai Junyao',
+                'markdown'    => '1. [switch language](https://baijunyao.com/docs/laravel-bjyblog/其他配置.html)
 ![](/images/default/article.png)
-2. [清空测试数据](https://baijunyao.com/docs/laravel-bjyblog/清空测试数据.html)
-3. [升级版本](https://baijunyao.com/docs/laravel-bjyblog/升级版本.html)',
+2. [Clear test data](https://baijunyao.com/docs/laravel-bjyblog/清空测试数据.html)
+3. [updated version](https://baijunyao.com/docs/laravel-bjyblog/升级版本.html)',
                 'html'        => '<ol>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE.html">切换语言</a>
+<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE.html">switch language</a>
 <img src="/images/default/article.png" alt="" />
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E6%B8%85%E7%A9%BA%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.html">清空测试数据</a>
+<a href="https://baijunyao.com/docs/laravel-bjyblog/%E6%B8%85%E7%A9%BA%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE.html">Clear test data</a>
 </li>
 <li>
-<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%8D%87%E7%BA%A7%E7%89%88%E6%9C%AC.html">升级版本</a>
+<a href="https://baijunyao.com/docs/laravel-bjyblog/%E5%8D%87%E7%BA%A7%E7%89%88%E6%9C%AC.html">updated version</a>
 </li>
 </ol>
 ',
-                'description' => '欢迎使用 laravel-bjyblog',
+                'description' => 'Welcome to laravel-bjyblog',
                 'keywords'    => 'laravel',
                 'cover'       => '/images/default/article.png',
                 'is_top'      => 1,
@@ -58,12 +58,12 @@ class ArticlesTableSeeder extends Seeder
             [
                 'id'          => 2,
                 'category_id' => 1,
-                'title'       => '已删除',
+                'title'       => 'Deleted',
                 'slug'        => 'deleted',
-                'author'      => '白俊遥',
-                'markdown'    => '内容',
-                'html'        => '内容',
-                'description' => '描述',
+                'author'      => 'Bai Junyao',
+                'markdown'    => 'content',
+                'html'        => 'content',
+                'description' => 'describe',
                 'keywords'    => 'test',
                 'cover'       => '/images/default/article.png',
                 'is_top'      => 0,

@@ -26,8 +26,8 @@ class SitesTableSeeder extends Seeder
             [
                 'id'                => 1,
                 'socialite_user_id' => 1,
-                'name'              => '白俊遥博客',
-                'description'       => '白俊遥的个人博客',
+                'name'              => 'Bai Junyao\'s blog',
+                'description'       => 'Bai Junyao\'s personal blog',
                 'url'               => 'https://baijunyao.com',
                 'audit'             => 0,
                 'sort'              => 1,
@@ -38,8 +38,8 @@ class SitesTableSeeder extends Seeder
             [
                 'id'                => 2,
                 'socialite_user_id' => 1,
-                'name'              => '已删除',
-                'description'       => '用于测试',
+                'name'              => 'deleted',
+                'description'       => 'for testing',
                 'url'               => 'https://deleted.com',
                 'audit'             => 1,
                 'sort'              => 1,

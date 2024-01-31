@@ -35,7 +35,7 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'id'             => 2,
-                'name'           => '已删除',
+                'name'           => 'deleted',
                 'email'          => 'deleted@test.com',
                 'password'       => bcrypt(123456),
                 'remember_token' => null,

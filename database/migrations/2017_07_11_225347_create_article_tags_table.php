@@ -16,8 +16,8 @@ class CreateArticleTagsTable extends Migration
     public function up()
     {
         Schema::create('article_tags', function (Blueprint $table) {
-            $table->integer('article_id')->unsigned()->default(0)->comment('文章id');
-            $table->integer('tag_id')->unsigned()->default(0)->comment('标签id');
+            $table->integer('article_id')->unsigned()->default(0)->comment('Article id');
+            $table->integer('tag_id')->unsigned()->default(0)->comment('Tag id');
             $table->timestamps();
             $table->softDeletes();
         });

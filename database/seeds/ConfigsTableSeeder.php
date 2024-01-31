@@ -26,7 +26,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 101,
                 'name'       => 'app.name',
-                'value'      => '白俊遥博客',
+                'value'      => 'Bai Junyao\'s blog',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -34,7 +34,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 102,
                 'name'       => 'bjyblog.head.keywords',
-                'value'      => '个人博客,博客模板,thinkphp,laravel博客,php博客,技术博客,白俊遥',
+                'value'      => 'personal blog,Blog template,thinkphp,laravel blog,php blog,Technology Blog,Bai Junyao',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -42,7 +42,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 103,
                 'name'       => 'bjyblog.head.description',
-                'value'      => '白俊遥的php博客,个人技术博客,bjyblog,bjyadmin官方网站',
+                'value'      => 'Bai Junyao\'s php blog,Personal technology blog,bjyblog,bjyadmin official website',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -74,7 +74,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 117,
                 'name'       => 'bjyblog.icp',
-                'value'      => '豫ICP备14009546号-3',
+                'value'      => 'Henan ICP No. 14009546-3',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -90,7 +90,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 119,
                 'name'       => 'bjyblog.copyright_word',
-                'value'      => '本文为白俊遥原创文章,转载无需和我联系,但请注明来自<a href="http://baijunyao.com">白俊遥博客</a>http://baijunyao.com',
+                'value'      => 'This article is an original article by Bai Junyao,No need to contact me for reprinting,But please indicate from<a href="http://baijunyao.com">Bai Junyao\'s blog</a>http://baijunyao.com',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -106,7 +106,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 125,
                 'name'       => 'bjyblog.author',
-                'value'      => '白俊遥',
+                'value'      => 'Bai Junyao',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -122,7 +122,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 141,
                 'name'       => 'bjyblog.alt_word',
-                'value'      => '白俊遥博客',
+                'value'      => 'Bai Junyao\'s blog',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -170,7 +170,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 149,
                 'name'       => 'bjyblog.head.title',
-                'value'      => '白俊遥博客,技术博客,个人博客模板, php博客系统',
+                'value'      => 'Bai Junyao\'s blog,Technology Blog,Personal blog template, php blog system',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,
@@ -194,7 +194,7 @@ class ConfigsTableSeeder extends Seeder
             [
                 'id'         => 152,
                 'name'       => 'bjyblog.qq_qun.code',
-                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="白俊遥博客群" title="白俊遥博客群"></a>',
+                'value'      => '<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bba3fea90444ee6caf1fb1366027873fe14e86bada254d41ce67768fadd729ee"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Bai Junyao Blog Group" title="Bai Junyao Blog Group"></a>',
                 'created_at' => '2018-08-22 21:03:01',
                 'updated_at' => '2018-08-22 21:03:01',
                 'deleted_at' => null,

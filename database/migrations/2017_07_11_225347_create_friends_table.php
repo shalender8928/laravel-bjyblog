@@ -16,10 +16,10 @@ class CreateFriendsTable extends Migration
     public function up()
     {
         Schema::create('friends', function (Blueprint $table) {
-            $table->increments('id')->comment('主键id');
-            $table->string('name', 50)->default('')->comment('链接名');
-            $table->string('url')->default('')->comment('链接地址');
-            $table->unsignedTinyInteger('sort')->nullable()->default(1)->comment('排序');
+            $table->increments('id');
+            $table->string('name', 50)->default('')->comment('Link Name');
+            $table->string('url')->default('')->comment('link address');
+            $table->unsignedTinyInteger('sort')->nullable()->default(1);
             $table->timestamps();
             $table->softDeletes();
         });

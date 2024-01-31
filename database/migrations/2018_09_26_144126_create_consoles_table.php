@@ -17,7 +17,7 @@ class CreateConsolesTable extends Migration
     {
         Schema::create('consoles', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->default('')->comment('名称');
+            $table->string('name')->default('');
             $table->timestamps();
             $table->softDeletes();
         });

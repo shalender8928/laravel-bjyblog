@@ -26,7 +26,7 @@ class SocialiteUsersTableSeeder extends Seeder
             [
                 'id'                           => 1,
                 'socialite_client_id'          => 1,
-                'name'                         => '白俊遥',
+                'name'                         => 'Bai Junyao',
                 'avatar'                       => '/images/default/avatar.jpg',
                 'openid'                       => '1',
                 'access_token'                 => '',
@@ -41,7 +41,7 @@ class SocialiteUsersTableSeeder extends Seeder
             [
                 'id'                           => 2,
                 'socialite_client_id'          => 1,
-                'name'                         => '已删除',
+                'name'                         => 'deleted',
                 'avatar'                       => '/images/default/avatar.jpg',
                 'openid'                       => '2',
                 'access_token'                 => '',

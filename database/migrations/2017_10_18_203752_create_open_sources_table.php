@@ -16,10 +16,10 @@ class CreateOpenSourcesTable extends Migration
     public function up()
     {
         Schema::create('open_sources', function (Blueprint $table) {
-            $table->increments('id')->comment('项目主键');
-            $table->tinyInteger('sort')->default(1)->comment('排序');
+            $table->increments('id');
+            $table->tinyInteger('sort')->default(1);
             $table->tinyInteger('type')->default(1)->comment('1:github 2:gitee');
-            $table->string('name')->default('')->comment('项目名');
+            $table->string('name')->default('')->comment('Item name');
             $table->timestamps();
             $table->softDeletes();
         });

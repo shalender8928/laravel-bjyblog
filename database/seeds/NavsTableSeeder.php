@@ -25,7 +25,7 @@ class NavsTableSeeder extends Seeder
         DB::table('navs')->insert([
             [
                 'id'         => 1,
-                'name'       => '随言碎语',
+                'name'       => 'Random words',
                 'url'        => 'notes',
                 'created_at' => '2018-08-04 12:41:26',
                 'updated_at' => '2018-08-04 12:41:26',
@@ -33,7 +33,7 @@ class NavsTableSeeder extends Seeder
             ],
             [
                 'id'         => 2,
-                'name'       => '开源项目',
+                'name'       => 'Open source projects',
                 'url'        => 'openSources',
                 'created_at' => '2018-08-04 12:41:26',
                 'updated_at' => '2018-08-04 12:41:26',
@@ -41,7 +41,7 @@ class NavsTableSeeder extends Seeder
             ],
             [
                 'id'         => 3,
-                'name'       => '已删除',
+                'name'       => 'Deleted',
                 'url'        => 'deleted',
                 'created_at' => '2019-01-04 16:35:12',
                 'updated_at' => '2019-01-04 16:35:12',
